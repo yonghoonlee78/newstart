@@ -1,0 +1,63 @@
+/* 기본적인 페이지 스타일링 */
+body {
+    background-color: #e6f2ff; /* 부드러운 파란 배경색 */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* 다양한 대체 글꼴 사용 */
+    margin: 20px;
+  }
+  
+  /* h1 요소에 다양한 텍스트 효과 추가 */
+  h1 {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px lightgray; /* 텍스트에 그림자 추가 */
+    font-size: 36px;
+    border-bottom: 2px solid darkblue; /* 아래쪽에 선 추가 */
+    padding-bottom: 10px;
+  }
+  
+  /* p 요소 스타일링: 다양한 글꼴 및 간격 */
+  p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify; /* 텍스트를 양쪽 정렬 */
+    padding: 15px;
+    border: 1px solid lightgray; /* 테두리 추가 */
+    border-radius: 8px; /* 둥근 모서리 */
+    background-color: #ffffff;
+    transition: background-color 0.5s, color 0.5s; /* 마우스 호버 시 색상 전환 */
+  }
+  
+  /* p 요소에 호버 효과 추가 */
+  p:hover {
+    background-color: #d9f2d9; /* 배경색이 연한 초록으로 변경 */
+    color: #006600; /* 텍스트 색상이 짙은 초록으로 변경 */
+  }
+  
+  /* 링크 스타일링 */
+  a {
+    color: #ff6600;
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* 링크에 호버 효과 추가 */
+  a:hover {
+    background-color: #ff6600; /* 배경이 주황색으로 변경 */
+    color: white; /* 텍스트 색상이 흰색으로 변경 */
+    transform: scale(1.1); /* 링크 크기 확대 */
+  }
+  
+  /* 새로운 클래스 box: 레이아웃 요소 */
+  .box {
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid #cccccc;
+    border-radius: 15px;
+    background-color: #f2f2f2;
